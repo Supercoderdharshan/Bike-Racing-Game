@@ -1,0 +1,28 @@
+let inc = 0.001;
+let start = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background('lightblue');
+  
+  stroke(255);
+  noFill();
+  beginShape();
+  let xoff = start;
+  for (let x = 0; x < width; x++) {
+    stroke(0);
+    // let y = random(height);
+    let y = noise(xoff) * height;
+    vertex(x, y);
+    
+    xoff += inc;
+  }
+  endShape();
+  
+  start += inc;
+  
+  //noLoop();
+}
