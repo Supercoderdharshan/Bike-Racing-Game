@@ -16,11 +16,11 @@ for (var i = 1; i<=21; i++){
 console.log(imageName)
 
 function preload(){
-  bgImg1 = loadImage("Images/bgImg1.jpg");  
-  bgImg2 = loadImage("Images/bgImg2.jpg");
-  bgImg3 = loadImage("Images/bgImg3.jpg");
-  bgImg4 = loadImage("Images/bgImg4.jpg");
-  bgImg5 = loadImage("Images/bgImg5.jpg");
+  bgImg1 = loadImage("Images/BgImg1.jpg");  
+  bgImg2 = loadImage("Images/BgImg2.jpg");
+  bgImg3 = loadImage("Images/BgImg3.jpg");
+  bgImg4 = loadImage("Images/BgImg4.jpg");
+  bgImg5 = loadImage("Images/BgImg5.jpg");
 
   playerImg = loadAnimation('Images/cycle/1.png', 'Images/cycle/2.png', 'Images/cycle/3.png', 'Images/cycle/4.png', 'Images/cycle/5.png', 'Images/cycle/6.png', 'Images/cycle/7.png', 'Images/cycle/8.png', 'Images/cycle/9.png', 'Images/cycle/10.png', 'Images/cycle/11.png', 'Images/cycle/12.png', 'Images/cycle/13.png', 'Images/cycle/14.png', 'Images/cycle/15.png', 'Images/cycle/16.png', 'Images/cycle/17.png', 'Images/cycle/18.png', 'Images/cycle/19.png', 'Images/cycle/20.png','Images/cycle/21.png')
   playerEndImg = loadAnimation("Images/cycle/6.png")
